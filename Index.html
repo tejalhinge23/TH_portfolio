@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="Viewport" content="width=device-width, initial-scale-1.0">
+        <title> My Portfolia</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/9527321718.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.png" class="logo">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Skills</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-text">
+                    <p>Software Developer</p>
+                    <h1>Hi, I'm <span>Tejal</span><br>More From India</h1>
+                </div>
+            </div>
+        </div>
+        <!-- -------------about-------------- -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/self.png">
+                    </div>
+                    
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I am a highly skilled web developer with the Knowledge of C, C++, HTML5, CSS3, Python. 
+                            In depth Knowledge of OOP concepts. I am adept at developing user-friendly and easy 
+                            to navigate websites which are visually appaling. dedicated and hardworking student 
+                            with time management and leadership quality!</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>C/C++</span></li>
+                                <li><span>Python</span></li>
+                                <li><span>HTML5/CSS3</span></li>
+                                <li><span>Knowledge of OOP</span></li>
+                                <li><span>Network Security</span></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Web Development Intern</span><br>Octanet Services PVT LTD. - 1 jan to 30 jan</li>
+                                <li><span>Web Development Intern</span><br>CodSoft - 25 Dec to 25 jan</li>
+                                <li><span>Volunteer, Bureau of Indain Standard, Pune, India</span><br>Referred and made 
+                                    the students aware about the goverment application-bureau of indian standard.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2022-2025</span><br>BE-Computer Engineerig</li>
+                                <li><span>2019-2022</span><br>HSC</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  -----------Services-------------- -->
+        <div id="skills">
+            <div class="container">
+                <h1 class="sub-title">My Skills</h1>
+                <div class="Skills-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>C/C++</h2>
+                        <p>C++ is an object-oriented programming (OOP) 
+                            language that is viewed by many as the best language for creating large-scale applications.</p>
+                        <a href="#">learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-html5"></i>
+                        <h2>HTML/CSS3</h2>
+                        <p>HTML defines the difference between web elements, 
+                        such as what is text and what is a title, 
+                        and CSS tells the web browser how to style those 
+                        elements visually.</p>
+                        <a href="#">learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-python"></i>
+                        <h2>Python</h2>
+                        <p>Python is an interpreted, object-oriented, high-level 
+                            programming language with dynamic semantics developed by Guido van Rossum..</p>
+                        <a href="#">learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--- -----------portfolia----------- -->
+        <div id="Portfolia">
+            <div class="container">
+                <h1 class="sub-title">My work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work-1.png">
+                        <div class="layer">
+                            <h3>Air Canvas: Draw in Air Using AI</h3>
+                            <p>International Journal of Scientific Reserach and Engineerig Trends (IJSRET)<br>Volume 8, Issue 2<br>Mar-Apr-2022</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-2.png">
+                        <div class="layer">
+                            <h3>Online Examination App</h3>
+                            <p>This is a simply and beautify android quiz application with SQLite database. 
+                                The android quiz application tests your knowledge and understanding in different areas. </p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-3.png">
+                        <div class="layer">
+                            <h3>Convert Image to Sketch Using Pyhton</h3>
+                                <p>Display message on screen using Python script on IDE.
+                                    Perform operations on data structures in Python.
+                                    Develop functions for given problem.
+                                    Design classes for given problem.
+                                    Handle exceptions.
+                                    </p>
+                                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-----------------contact--------------->
+    <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>tejalhinge23@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>9527321718</p>
+                    <div class="social-icons">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-square-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin"></i>  
+                    </div>
+                    <a href="images/Tejal CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Meassage"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ Tejal. Made with <i class="fa-solid fa-heart"></i> by own</p>
+        </div>
+    </div>
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+    </body>
+</html>
